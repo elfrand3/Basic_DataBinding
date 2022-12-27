@@ -51,14 +51,14 @@
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.613" />
+            app:layout_constraintVertical_bias="0.625" />
 
         <Button
             android:id="@+id/id_ProgressBar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="56dp"
-            android:layout_marginBottom="144dp"
+            android:layout_marginBottom="140dp"
             android:text="ProgressBar"
             android:textAllCaps="false"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -70,6 +70,16 @@
             android:layout_marginEnd="56dp"
             android:layout_marginBottom="100dp"
             android:text="Object"
+            android:textAllCaps="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+        <Button
+            android:id="@+id/id_Vmodels"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="56dp"
+            android:layout_marginBottom="60dp"
+            android:text="View Models"
             android:textAllCaps="false"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />

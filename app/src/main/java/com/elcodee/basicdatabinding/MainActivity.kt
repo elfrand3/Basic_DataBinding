@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
         binding.apply {
             idProgressBar.setOnClickListener { startActivity(Intent(this@MainActivity, ProgressBar::class.java)) }
             idObject.setOnClickListener { startActivity(Intent(this@MainActivity, Object::class.java)) }
+            idVmodels.setOnClickListener { startActivity(Intent(this@MainActivity, Vmodels::class.java)) }
             submitButton.setOnClickListener {
                 greetingTextView.text = "Hello! "+ nameEditText.text
 //                displayGreeting()

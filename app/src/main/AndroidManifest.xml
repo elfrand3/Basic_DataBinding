@@ -13,14 +13,21 @@
         android:theme="@style/Theme.BasicDataBinding"
         tools:targetApi="31">
         <activity
-            android:name=".Object"
+            android:name=".Vmodels1"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".Object_DataBinding"
+            android:name=".Vmodels"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Object"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
