@@ -29,7 +29,6 @@ class Vmodels : AppCompatActivity() {
             binding.countText.text = it.toString()
         })
 
-//        binding.viewModels = viewModel
 
         binding.apply {
 //            pindah ke activity Vmodel1
